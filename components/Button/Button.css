@@ -1,0 +1,50 @@
+/* Standard Button */
+
+.button {
+	border-radius: 10px;
+	border: 2px solid;
+	padding: 0px;
+	font-size: 15px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+/* Colors*/
+.blueButton {
+	background-color: blue;
+	color: white;
+}
+
+.redButton {
+	background-color: red;
+	color: white;
+}
+
+.blueTextButton {
+	color: blue;
+	background-color: white;
+}
+
+.redTextButton {
+	color: red;
+	background-color: white;
+}
+
+/* Sizes */
+.smallButton {
+	width: 100px;
+	height: 30px;
+	font-size: 12px;
+}
+
+.mediumButton {
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+}
+
+.largeButton {
+	width: 300px;
+	height: 60px;
+	font-size: 24px;
+}
