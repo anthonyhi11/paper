@@ -1,0 +1,7 @@
+.linktree {
+	display: flex;
+}
+
+.linktree li {
+  margin: 10px;
+}

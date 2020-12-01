@@ -1,0 +1,30 @@
+.blogCard-container {
+	width: 80%;
+	height: 20%;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	border: 1px solid black;
+}
+
+.blogCard-container h2 {
+	font-size: 20px;
+	margin: 0px;
+}
+
+.blogCard-container h3 {
+	font-size: 17px;
+	margin: 0px;
+}
+
+.blogCard-container h4 {
+	font-size: 14px;
+	margin: 0px;
+}
+
+.blogCard-container p {
+	font-size: 12px;
+	margin: 0px;
+}

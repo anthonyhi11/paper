@@ -1,0 +1,15 @@
+.toolbarContainer {
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 2;
+	position: relative;
+	width: 100vw;
+}
+
+.headerLogo {
+	font-size: 20px;
+	margin: 10px;
+	cursor: pointer;
+}
