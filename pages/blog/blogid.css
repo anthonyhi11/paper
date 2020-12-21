@@ -1,0 +1,19 @@
+#blogPage {
+}
+
+#blogPage h1 {
+	color: red;
+}
+
+#blogPage h2 {
+	color: blue;
+}
+
+#blogPage h3 {
+	color: green;
+}
+
+#blogPage p {
+	color: purple;
+	width: 70%;
+}

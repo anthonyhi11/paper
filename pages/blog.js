@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Toolbar from '../components/Toolbar/Toolbar';
 import { getBlogs } from '../actions/blog-actions';
-import Button from '../components/Button/Button';
 import BlogCard from '../components/BlogCard/BlogCard';
 
 export default function Blog() {
@@ -14,10 +13,10 @@ export default function Blog() {
 		});
 	}, []);
 
-	let blogList = blogs?.map((blog) => {
+	let blogList = blogs?.map((blog, i) => {
 		return (
 			<li>
-				<BlogCard blog={blog} />
+				<BlogCard blog={blog} id={i} key={i} />
 			</li>
 		);
 	});
